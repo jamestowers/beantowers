@@ -1,0 +1,17 @@
+@keyframes mask {
+    0% { max-width: 100%; right:0}
+    100% { max-width: 0%;}
+}
+
+@keyframes wipe {
+    0% { max-width: 0%;border: none; text-indent: -9999px;}
+    49% { max-width: 100%;border: none; text-indent: -9999px;}
+    50% { border: inherit; text-indent: auto;}
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.6s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}

@@ -1,0 +1,1906 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"upload",
+				"upload_success"
+			],
+			[
+				"color",
+				"color-primary"
+			],
+			[
+				"coor",
+				"color-primary"
+			],
+			[
+				"F",
+				"FollowBtn"
+			],
+			[
+				"User",
+				"UserByTokenTrait"
+			],
+			[
+				"user_",
+				"user_follows"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"mak",
+				"makeApiUrl"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"strea",
+				"streamCount"
+			],
+			[
+				"playlist",
+				"playlist_count"
+			],
+			[
+				"curr",
+				"currentKey"
+			],
+			[
+				"stream",
+				"streamsArray"
+			],
+			[
+				"char",
+				"charNumber"
+			],
+			[
+				"line",
+				"lineNumber"
+			],
+			[
+				"cont",
+				"contentType"
+			],
+			[
+				"prepend",
+				"prependArrayBracket"
+			],
+			[
+				"url",
+				"urlParts"
+			],
+			[
+				"terri",
+				"territoryCode"
+			],
+			[
+				"terr",
+				"territoryCode"
+			],
+			[
+				"form",
+				"formattedDate"
+			],
+			[
+				"lic",
+				"licensorId"
+			],
+			[
+				"source",
+				"source_uri"
+			],
+			[
+				"steam",
+				"streamedAt"
+			],
+			[
+				"stre",
+				"streamedAt"
+			],
+			[
+				"new",
+				"newStream"
+			],
+			[
+				"cli",
+				"clientId"
+			],
+			[
+				"clein",
+				"client_id"
+			],
+			[
+				"cin",
+				"clientSecret"
+			],
+			[
+				"extra",
+				"extraData"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"playls",
+				"playlists_url"
+			],
+			[
+				"add",
+				"addedAt"
+			],
+			[
+				"play",
+				"playlist_id"
+			],
+			[
+				"song",
+				"songsArray"
+			],
+			[
+				"dates",
+				"datesArray"
+			],
+			[
+				"lo",
+				"loading-indicator"
+			],
+			[
+				"date",
+				"dateEnd"
+			],
+			[
+				"service",
+				"serviceId"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"ser",
+				"service_id"
+			],
+			[
+				"insert",
+				"insertPlaylistAndStats"
+			],
+			[
+				"columns",
+				"columnsWithValues"
+			],
+			[
+				"colu",
+				"columnsWithValues"
+			],
+			[
+				"Playlist",
+				"PlaylistImportController"
+			],
+			[
+				"impo",
+				"importPlaylists"
+			],
+			[
+				"uploadd",
+				"uploadedFile"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"tracks",
+				"trackIds"
+			],
+			[
+				"prev",
+				"prev_checked"
+			],
+			[
+				"deleted",
+				"deletedPlaylists"
+			],
+			[
+				"sheet",
+				"sheetNames"
+			],
+			[
+				"oauth",
+				"oauth_token"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"a",
+				"attempt"
+			],
+			[
+				"parse",
+				"parseHeaders"
+			],
+			[
+				"trac",
+				"track_id"
+			],
+			[
+				"track",
+				"track_id"
+			],
+			[
+				"de",
+				"deletedTracks"
+			],
+			[
+				"pla",
+				"playlist"
+			],
+			[
+				"pl",
+				"playlistMethods"
+			],
+			[
+				"plat",
+				"playlist_data"
+			],
+			[
+				"Play",
+				"PlaylistMethods"
+			],
+			[
+				"plays",
+				"playlist_data"
+			],
+			[
+				"handl",
+				"handleErrors"
+			],
+			[
+				"ow",
+				"owner_id"
+			],
+			[
+				"handle",
+				"handle_playlist_update_errors"
+			],
+			[
+				"s",
+				"spotify"
+			],
+			[
+				"reward",
+				"reward_request"
+			],
+			[
+				"em",
+				"employeesArray"
+			],
+			[
+				"created",
+				"created_by"
+			],
+			[
+				"Reward",
+				"RewardRequest"
+			],
+			[
+				"unsu",
+				"unusedCodes"
+			],
+			[
+				"creat",
+				"creator"
+			],
+			[
+				"unused",
+				"unusedCodes"
+			],
+			[
+				"rewar",
+				"reward_id"
+			],
+			[
+				"team",
+				"teamTotal"
+			],
+			[
+				"totla",
+				"total-value"
+			],
+			[
+				"invi",
+				"invitableRewards"
+			],
+			[
+				"op",
+				"optGrps"
+			],
+			[
+				"rewards",
+				"rewardsArray"
+			],
+			[
+				"selecte",
+				"selectedValue"
+			],
+			[
+				"ins",
+				"instantRewards"
+			],
+			[
+				"claime",
+				"claimedRewards"
+			],
+			[
+				"request",
+				"request_id"
+			],
+			[
+				"rewa",
+				"rewardRequest"
+			],
+			[
+				"dele",
+				"deleteVideos"
+			],
+			[
+				"video",
+				"videoContentTypes"
+			],
+			[
+				"user",
+				"userTotal"
+			],
+			[
+				"cart",
+				"cartItemIds"
+			],
+			[
+				"creae",
+				"createPseudoReward"
+			],
+			[
+				"be",
+				"bespokeVouchers"
+			],
+			[
+				"updat",
+				"updateExistingPivot"
+			],
+			[
+				"added",
+				"addedUser"
+			],
+			[
+				"care",
+				"caretakeesWithReward"
+			],
+			[
+				"ca",
+				"caretakees"
+			],
+			[
+				"update",
+				"updateCodeClaimCount"
+			],
+			[
+				"has",
+				"hasCaretaker"
+			],
+			[
+				"use",
+				"userTeam"
+			],
+			[
+				"manager",
+				"manager_id"
+			],
+			[
+				"rew",
+				"rewardOptions"
+			],
+			[
+				"cate",
+				"categoriesArray"
+			],
+			[
+				"int",
+				"international_travel"
+			],
+			[
+				"Inst",
+				"instantRewards"
+			],
+			[
+				"manag",
+				"managerRole"
+			],
+			[
+				"map",
+				"mapNewRewardTypesToRewards"
+			],
+			[
+				"up",
+				"upgradeRewardTypes"
+			],
+			[
+				"find",
+				"findOrFail"
+			],
+			[
+				"invitees",
+				"inviteesAccepted"
+			],
+			[
+				"invit",
+				"inviteesAccepted"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"regii",
+				"regionId"
+			],
+			[
+				"req",
+				"require_notes"
+			],
+			[
+				"requir",
+				"require_dietary"
+			],
+			[
+				"requi",
+				"require_train"
+			],
+			[
+				"require_d",
+				"require_dob"
+			],
+			[
+				"neare",
+				"nearest_train"
+			],
+			[
+				"pass",
+				"passport_expiry"
+			],
+			[
+				"instantREwards",
+				"instantRewards"
+			],
+			[
+				"inst",
+				"InstantReward"
+			],
+			[
+				"instan",
+				"instantReward_region"
+			],
+			[
+				"teams",
+				"teamsThatRequested"
+			],
+			[
+				"fund",
+				"fundsText"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"categor",
+				"categories"
+			],
+			[
+				"categ",
+				"categories"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 343,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 941,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ProjectController.php",
+			"settings":
+			{
+				"buffer_size": 3569,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/project.blade.php",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/james/projects/beantowers",
+		"/Users/james/projects/beantowers/app",
+		"/Users/james/projects/beantowers/app/Http",
+		"/Users/james/projects/beantowers/app/Http/Controllers",
+		"/Users/james/projects/beantowers/resources",
+		"/Users/james/projects/beantowers/resources/assets",
+		"/Users/james/projects/beantowers/resources/assets/js",
+		"/Users/james/projects/beantowers/resources/assets/js/components",
+		"/Users/james/projects/beantowers/resources/views",
+		"/Users/james/projects/beantowers/resources/views/admin",
+		"/Users/james/projects/beantowers/resources/views/admin/projects"
+	],
+	"file_history":
+	[
+		"/Users/james/projects/beantowers/resources/views/home.blade.php",
+		"/Users/james/projects/beantowers/routes/web.php",
+		"/Users/james/projects/beantowers/vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub",
+		"/Users/james/projects/beantowers/resources/views/admin.blade.php",
+		"/Users/james/projects/beantowers/resources/views/admin/projects/index.blade.php",
+		"/Users/james/projects/beantowers/resources/views/admin/projects/createOrUpdate.blade.php",
+		"/Users/james/projects/beantowers/resources/views/head.blade",
+		"/Users/james/projects/beantowers/app/Http/Controllers/ProjectController.php",
+		"/Users/james/projects/beantowers/resources/assets/js/components/ImageUpload.vue",
+		"/Users/james/projects/beantowers/config/image.php",
+		"/Users/james/projects/beantowers/resources/views/app.blade.php",
+		"/Users/james/projects/beantowers/app/Http/Controllers/MediaController.php",
+		"/Users/james/projects/beantowers/resources/assets/js/components/FileUpload.vue",
+		"/Users/james/projects/beantowers/resources/views/project.blade.php",
+		"/Users/james/projects/beantowers/resources/views/show.blade.php",
+		"/Users/james/projects/beantowers/config/app.php",
+		"/Users/james/projects/beantowers/app/Media.php",
+		"/Users/james/projects/beantowers/app/Project.php",
+		"/Users/james/projects/beantowers/resources/assets/js/app.js",
+		"/Users/james/projects/presaver/resources/assets/js/components/CampaignEdit.vue",
+		"/Users/james/projects/beantowers/database/migrations/2017_05_10_183030_create_media_table.php",
+		"/Users/james/projects/presaver/app/Http/Controllers/CampaignController.php",
+		"/Users/james/projects/presaver/resources/assets/js/app.js",
+		"/Users/james/projects/tracks2/resources/assets/js/app.js",
+		"/Users/james/projects/beantowers/resources/assets/js/bootstrap.js",
+		"/Users/james/projects/beantowers/resources/assets/sass/forms/_forms.scss",
+		"/Users/james/projects/beantowers/database/migrations/2017_05_10_182436_create_projects_table.php",
+		"/Users/james/projects/beantowers/resources/assets/sass/app.scss",
+		"/Users/james/projects/beantowers/resources/assets/sass/_header.scss",
+		"/Users/james/projects/beantowers/resources/assets/sass/_type.scss",
+		"/Users/james/projects/beantowers/resources/assets/sass/_variables.scss",
+		"/Users/james/projects/beantowers/resources/assets/sass/_icons.scss",
+		"/Users/james/projects/beantowers/node_modules/babel-runtime/helpers/typeof.js",
+		"/Users/james/projects/beantowers/webpack.mix.js",
+		"/Users/james/projects/beantowers/package.json",
+		"/Users/james/projects/tracks2/package.json",
+		"/Users/james/projects/tracks2/webpack.mix.js",
+		"/Users/james/projects/redbull/app/Http/Controllers/InstantRewardsController.php",
+		"/Users/james/projects/redbull/resources/views/instant-rewards/createOrUpdate.blade.php",
+		"/Users/james/projects/beantowers/.env",
+		"/Users/james/projects/beantowers/app/Page.php",
+		"/Users/james/projects/beantowers/database/migrations/2017_05_10_182436_create_pages_table.php",
+		"/Users/james/projects/beantowers/wp-config-sample.php",
+		"/Users/james/projects/tracks2/resources/assets/js/routes.js",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Playlists.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Song.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Chart.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Artist.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Navigation.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/DashboardNav.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/components/FollowBtn.vue",
+		"/Users/james/projects/tracks2/routes/web.php",
+		"/Users/james/projects/tracks2/app/Http/Controllers/UserController.php",
+		"/Users/james/projects/tracks2/resources/assets/sass/forms/_forms-buttons.scss",
+		"/Users/james/projects/tracks2/app/Notifications/NewPlaylistAdds.php",
+		"/Users/james/projects/tracks2/app/Console/Commands/SendPlaylistAddNotifications.php",
+		"/Users/james/projects/tracks2/config/mail.php",
+		"/Users/james/projects/tracks2/config/services.php",
+		"/Users/james/projects/tracks2/.env",
+		"/Users/james/projects/tracks2/app/User.php",
+		"/Users/james/projects/tracks2/app/Exceptions/Handler.php",
+		"/Users/james/projects/tracks2/app/Traits/UserByTokenTrait.php",
+		"/Users/james/projects/tracks2/resources/assets/sass/_variables.scss",
+		"/Users/james/projects/tracks2/node_modules/less/test/css/variables.css",
+		"/Users/james/projects/tracks2/.env.production",
+		"/Users/james/projects/tracks2/config/app.php",
+		"/Users/james/projects/tracks2/app/Console/Kernel.php",
+		"/Users/james/projects/tracks2/app/Traits/getUserByTokenTrait.php",
+		"/Users/james/projects/tracks2/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php",
+		"/Users/james/projects/tracks2/app/Http/Controllers/Auth/LoginController.php",
+		"/Users/james/projects/tracks2/app/Http/Kernel.php",
+		"/Users/james/projects/tracks2/app/Providers/AppServiceProvider.php",
+		"/Users/james/projects/tracks2/vendor/laravel/framework/src/Illuminate/Support/Facades/Log.php",
+		"/Users/james/projects/tracks2/vendor/psr/log/Psr/Log/LoggerInterface.php",
+		"/Users/james/projects/tracks2/vendor/laravel/framework/src/Illuminate/Contracts/Logging/Log.php",
+		"/Users/james/projects/tracks2/storage/logs/laravel.log",
+		"/Users/james/projects/tracks2/resources/assets/js/components/PlaylistItem.vue",
+		"/Users/james/projects/tracks2/vendor/monolog/monolog/src/Monolog/Logger.php",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Playlist.vue",
+		"/Users/james/projects/tracks2/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/Users/james/projects/tracks2/database/migrations/2017_04_25_094508_create_user_follows_table.php",
+		"/Users/james/projects/tracks2/resources/assets/sass/_utils.scss",
+		"/Users/james/projects/tracks2/resources/assets/sass/_icons.scss",
+		"/Users/james/projects/tracks2/config/auth.php",
+		"/Users/james/projects/tracks2/resources/assets/js/vuex/actions.js",
+		"/Users/james/projects/tracks2/resources/assets/js/vuex/store.js",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Dashboard.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/auth.js",
+		"/Users/james/projects/presaver/resources/assets/js/components/Dashboard.vue",
+		"/Users/james/projects/tracks2/resources/assets/js/vuex/modules/user.js",
+		"/Users/james/projects/tracks2/resources/assets/js/vuex/mutation-types.js",
+		"/Users/james/projects/tracks2/config/jwt.php",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Auth/Register.vue",
+		"/Users/james/projects/tracks2/node_modules/request/lib/auth.js",
+		"/Users/james/projects/tracks2/resources/assets/js/mixins.js",
+		"/Users/james/projects/tracks2/resources/assets/sass/_header.scss",
+		"/Users/james/projects/tracks2/resources/views/app.blade.php",
+		"/Users/james/projects/tracks2/resources/assets/sass/_transitions.scss",
+		"/Users/james/projects/blend/web/static/js/app.js",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Pagination.vue",
+		"/Users/james/projects/tracks2/resources/assets/sass/_title-area.scss",
+		"/Users/james/projects/tracks2/webpack.config.js",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Tracklist.vue",
+		"/Users/james/projects/tracks2/-babelrc",
+		"/Users/james/projects/tracks2/.babelrc",
+		"/Users/james/projects/presaver/node_modules/laravel-mix/setup/webpack.config.js",
+		"/Users/james/projects/tracks2/resources/assets/js/components/Loading.vue",
+		"/Users/james/projects/tracks2/composer.json",
+		"/Users/james/projects/presaver/package.json",
+		"/Users/james/projects/presaver/webpack.mix.js",
+		"/Users/james/projects/tracks2/npm-debug.log",
+		"/Users/james/projects/tracks2/gulpfile.js",
+		"/Users/james/projects/tracks2/resources/assets/sass/_tables.scss",
+		"/Users/james/projects/tracks2/resources/assets/sass/_layout.scss",
+		"/Users/james/projects/tracks2/resources/assets/sass/app.scss",
+		"/Users/james/Desktop/_chart.scss",
+		"/Users/james/Desktop/_1240up.scss",
+		"/Users/james/Desktop/_1030up.scss",
+		"/Users/james/Desktop/_768up.scss",
+		"/Users/james/Desktop/_1640up.scss",
+		"/Users/james/projects/tracks2/node_modules/bs-recipes/recipes/gulp.task.sequence/gulpfile.js",
+		"/Users/james/projects/tracks2/app/Library/helpers.php",
+		"/Users/james/projects/tracks2/app/Playlist.php",
+		"/Users/james/projects/tracks2/bootstrap/app.php",
+		"/Users/james/projects/tracks2/composer.lock",
+		"/Users/james/Desktop/PlaylistController.php",
+		"/Users/james/projects/api.tracks2/app/Http/Controllers/PlaylistLibraryController.php",
+		"/Users/james/projects/tracks2/app/Http/Controllers/PlaylistController.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 163.0,
+		"where_history":
+		[
+			"/Users/james/projects/tracks2",
+			"/Users/james/projects/tracks2/resources/assets/js/components",
+			"<current file>",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>",
+			"<open folders>",
+			"<open files>,<open folders>",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"<open folders>",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"/Applications/MAMP/htdocs/songdroprb/app/assets/javascripts/application,/Applications/MAMP/htdocs/songdroprb/app/views",
+			"/Applications/MAMP/htdocs/songdroprb/app/assets/javascripts/application,/Applications/MAMP/htdocs/songdroprb/app/assets/javascripts/application",
+			"/Applications/MAMP/htdocs/songdroprb/app/assets/javascripts/application",
+			"<open files>,/Applications/MAMP/htdocs/songdroprb/app/assets/javascripts/application",
+			"<open files>",
+			"",
+			"<open folders>",
+			"/Applications/MAMP/htdocs/songdroprb/app/views/application,/Applications/MAMP/htdocs/songdroprb/app/views/artists,/Applications/MAMP/htdocs/songdroprb/app/views/drops,/Applications/MAMP/htdocs/songdroprb/app/views/info,/Applications/MAMP/htdocs/songdroprb/app/views/intro,/Applications/MAMP/htdocs/songdroprb/app/views/layouts,/Applications/MAMP/htdocs/songdroprb/app/views/mixes,/Applications/MAMP/htdocs/songdroprb/app/views/passwords,/Applications/MAMP/htdocs/songdroprb/app/views/plays,/Applications/MAMP/htdocs/songdroprb/app/views/search,/Applications/MAMP/htdocs/songdroprb/app/views/sessions,/Applications/MAMP/htdocs/songdroprb/app/views/settings,/Applications/MAMP/htdocs/songdroprb/app/views/shares,/Applications/MAMP/htdocs/songdroprb/app/views/songs,/Applications/MAMP/htdocs/songdroprb/app/views/taggings,/Applications/MAMP/htdocs/songdroprb/app/views/users",
+			"/Applications/MAMP/htdocs/songdroprb/app/views",
+			"<open files>",
+			"",
+			"<open files>",
+			"/Applications/MAMP/htdocs/songdroprb/app/views/mailer,<open folders>",
+			"/Applications/MAMP/htdocs/songdroprb/app/views/mailer",
+			"/Applications/MAMP/htdocs/songdroprb/app/views/mailer/_about_user.html.erb",
+			"/Applications/MAMP/htdocs/songdroprb/app/views",
+			"<open files>",
+			"/Applications/MAMP/htdocs/songdroprb/app",
+			"<open folders>",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"this",
+			"div",
+			"File",
+			"handleFileUpload",
+			"project",
+			"</div>\n        <div class=\"form-row\">",
+			"Navigation",
+			"router-link",
+			"title",
+			"<div class=\"form-row\">\n        {",
+			"title",
+			"instantReward",
+			"Page",
+			"instantReward",
+			"reward",
+			"Controll",
+			"user",
+			"media",
+			"Page",
+			"pages",
+			"name",
+			"$this->",
+			"song",
+			"\\Carbon\\Carb",
+			"artist",
+			"DB",
+			"$userId",
+			"$e",
+			"bugsnag.logger",
+			"display_errors",
+			"Log::",
+			"log",
+			"Log",
+			"log",
+			"$user_id",
+			"$request->user_id",
+			"track",
+			"Playlists",
+			"profile",
+			"help-block",
+			"Tracklist",
+			"component: component:",
+			"Playlists",
+			"isActive",
+			"isActived",
+			"Chart",
+			": function()",
+			"<style lang=\"sass\">",
+			"/bin/cross-env",
+			"$playlist",
+			"->",
+			"300",
+			"value",
+			"vm",
+			"this",
+			"response.data.",
+			"=>",
+			"function()",
+			"const",
+			"date_range_end",
+			"            \n",
+			"tracks_stats",
+			"$table->integer('",
+			"`/",
+			"+=",
+			"Date Y-m-d",
+			"]",
+			"[",
+			"comment",
+			"post_",
+			"comments",
+			"$q",
+			"uery",
+			"from",
+			"playlists",
+			"self::STATE_DONE",
+			"$this->state = self::STATE_DONE",
+			"STATE_DONE",
+			"$this->endDocument",
+			"endD",
+			"STATE_DONE",
+			" || $c === ' '",
+			"','",
+			"$c === ','",
+			"STATE_AFTER_VALUE",
+			"endObject",
+			"end_",
+			"addStreamToStreamsArray",
+			"Expected ',' or ']' while parsing array",
+			"addStreamToInsertsArray",
+			"$stream['source_uri']",
+			"\\Carbon\\Carbon",
+			"\\App\\Track",
+			"\\App\\Playlist",
+			"\\App\\Stream::",
+			"newStream",
+			"file",
+			"$stream->",
+			"$playlistModel",
+			"$",
+			"\\Log::inf",
+			"this->getJso",
+			"$this->json",
+			"Log::i",
+			"\\Log::",
+			"Document must start with object ",
+			"lineNumber",
+			"startObject",
+			"Start of string expected for object key",
+			" Start of string expected for object key",
+			"$this->stack",
+			"endObject",
+			"STACK_OBJECT",
+			"start_",
+			"end_",
+			"endObject",
+			"'}')",
+			"endObject",
+			"endDocument",
+			"{\n",
+			"endDocument",
+			"STATE_DONE",
+			";\n",
+			"STATE_DONE",
+			"Expected end of document",
+			"startObject",
+			" $",
+			"$res"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<style lang=\"scss\">",
+			"},\n{",
+			"regions",
+			"region",
+			"Region",
+			"=>",
+			"=",
+			")",
+			"array(",
+			"]",
+			"[",
+			"owner",
+			"  id: ",
+			"  user: ",
+			"{",
+			"},\n  {\n  user: ",
+			"},\n{\n  user: ",
+			"},{\n  user: ",
+			"},\n  user: ",
+			"},\nuser: ",
+			"  id: ",
+			",\nid: ",
+			", id: ",
+			"user: ",
+			"&lt;",
+			"&gt;",
+			"&gt",
+			"showLoading",
+			"@currentSound",
+			"tigPlayer",
+			"Player.SoundManager",
+			"Audio.SoundManager",
+			"location-map",
+			"gallery-item-details",
+			"gallery-item",
+			"searchResultsMap",
+			"<h4>Features</h4>",
+			"",
+			"font-url('",
+			"$grey-6",
+			"$grey-7",
+			"$grey-G",
+			"$grey-7",
+			"$grey-67",
+			"$grey-3",
+			"show-details clearfix",
+			"15",
+			"col4",
+			"col8",
+			"%",
+			"col3",
+			"$grey-6",
+			"$grey-7",
+			"$grey-8",
+			"$grey-6",
+			"$grey-5",
+			"$grey-3",
+			"$grey-2",
+			"$grey-1",
+			"$grey",
+			"$white",
+			"$grey",
+			"font-body",
+			"step",
+			"<?php admin_url(); ?>",
+			"<?php admin_url( 'admin.php?page=orders' ); ?>",
+			"<?php admin_url( admin.php?page=orders); ?>?",
+			"customer_details_",
+			"customer_details_meta_box",
+			"FuturaStd-Light",
+			"silkavenue",
+			"FuturaStd-CondensedLight",
+			"/wp-content/themes/silkavenue/library/fonts",
+			"site",
+			"echo get_bloginfo",
+			".../fonts/FuturaStd-",
+			"$grey5",
+			"dsri",
+			"",
+			"mark_as_booked",
+			"brideOrGroom",
+			"show_on_reel",
+			"'show_on_reel'",
+			"get_soundcloud_id_from_embed",
+			"get_youtube_id_from_url",
+			".top-nav",
+			"main-nav",
+			"<h1 class=\"page-title\">",
+			"color1",
+			"SESSION",
+			"",
+			"SESSION",
+			"varopartners.com",
+			"$color2",
+			"$color1",
+			"canvas",
+			"jQuery",
+			"../../fonts/gotham",
+			"../fonts/gotham",
+			"jQuery(",
+			"$",
+			"$thumbs",
+			"@",
+			"Std-Demi",
+			"fonts/gotham-",
+			"fonts/",
+			"console.log \"[Tour] (\"+@data.name+\")",
+			"50% {opacity: 0.4;}",
+			"'signup: intro'",
+			"nextBtn",
+			"getSelectedMixes",
+			"dropper.redropOpen",
+			"dropper.closeDropper",
+			"functions.showLoader(",
+			"functions.hideLoader(",
+			"icon-check",
+			"search-form",
+			"dropper.showDropEditRow",
+			"dropper.hideDropEditRow",
+			"hideDropEditRow",
+			"showDropEditRow",
+			"<div class=\"switch\" data-checked=\"<%= t 'form.checked' %>\" data-unchecked=\"<%= t 'form.unchecked' %>\"></div>",
+			"functions.trackEvent(",
+			"on",
+			"stepToProceedAction",
+			"stepToProceedTarget",
+			"clearTimeout(functions.toolTipTimer)",
+			"containerPos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/ProjectController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								238
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/project.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 78.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.350685918899,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "beantowers.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"home.b",
+				"resources/views/home.blade.php"
+			],
+			[
+				"proj",
+				"app/Http/Controllers/ProjectController.php"
+			],
+			[
+				"homecontr",
+				"app/Http/Controllers/HomeController.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"homeco",
+				"vendor/laravel/framework/src/Illuminate/Auth/Console/stubs/make/controllers/HomeController.stub"
+			],
+			[
+				"app.bl",
+				"resources/views/app.blade.php"
+			],
+			[
+				"app.blade",
+				"resources/views/app.blade.php"
+			],
+			[
+				"createo",
+				"resources/views/admin/projects/createOrUpdate.blade.php"
+			],
+			[
+				"fileup",
+				"resources/assets/js/components/FileUpload.vue"
+			],
+			[
+				"mediac",
+				"app/Http/Controllers/MediaController.php"
+			],
+			[
+				"imageup",
+				"resources/assets/js/components/ImageUpload.vue"
+			],
+			[
+				"project.blad",
+				"resources/views/project.blade.php"
+			],
+			[
+				"projectc",
+				"app/Http/Controllers/ProjectController.php"
+			],
+			[
+				"app.blad",
+				"resources/views/app.blade.php"
+			],
+			[
+				"imageu",
+				"resources/assets/js/components/ImageUpload.vue"
+			],
+			[
+				"configapp",
+				"config/app.php"
+			],
+			[
+				"media",
+				"app/Media.php"
+			],
+			[
+				"pro",
+				"app/Project.php"
+			],
+			[
+				"project",
+				"app/Project.php"
+			],
+			[
+				"app.js",
+				"resources/assets/js/app.js"
+			],
+			[
+				"fileupl",
+				"resources/assets/js/components/FileUpload.vue"
+			],
+			[
+				"mediaco",
+				"app/Http/Controllers/MediaController.php"
+			],
+			[
+				"createor",
+				"resources/views/admin/projects/createOrUpdate.blade.php"
+			],
+			[
+				"app",
+				"resources/assets/js/app.js"
+			],
+			[
+				"forms.sc",
+				"resources/assets/sass/forms/_forms.scss"
+			],
+			[
+				"header.sc",
+				"resources/assets/sass/_header.scss"
+			],
+			[
+				"icons",
+				"resources/assets/sass/_icons.scss"
+			],
+			[
+				"vari",
+				"resources/assets/sass/_variables.scss"
+			],
+			[
+				"type.sc",
+				"resources/assets/sass/_type.scss"
+			],
+			[
+				"type",
+				"node_modules/babel-runtime/helpers/typeof.js"
+			],
+			[
+				"app.sc",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"trackli",
+				"resources/assets/js/components/Tracklist.vue"
+			],
+			[
+				"route",
+				"resources/assets/js/routes.js"
+			],
+			[
+				"app.",
+				"resources/assets/js/app.js"
+			],
+			[
+				"playlist",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"chart",
+				"resources/assets/js/components/Chart.vue"
+			],
+			[
+				"song",
+				"resources/assets/js/components/Song.vue"
+			],
+			[
+				"playlists",
+				"resources/assets/js/components/Playlists.vue"
+			],
+			[
+				"artist",
+				"resources/assets/js/components/Artist.vue"
+			],
+			[
+				"dahsb",
+				"resources/assets/js/components/DashboardNav.vue"
+			],
+			[
+				"nav",
+				"resources/assets/js/components/Navigation.vue"
+			],
+			[
+				"buttons",
+				"resources/assets/sass/forms/_forms-buttons.scss"
+			],
+			[
+				"usercon",
+				"app/Http/Controllers/UserController.php"
+			],
+			[
+				"follow",
+				"resources/assets/js/components/FollowBtn.vue"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"variables.sc",
+				"resources/assets/sass/_variables.scss"
+			],
+			[
+				"variab",
+				"node_modules/less/test/css/variables.css"
+			],
+			[
+				"handler",
+				"app/Exceptions/Handler.php"
+			],
+			[
+				"authcontr",
+				"app/Http/Controllers/Auth/LoginController.php"
+			],
+			[
+				"config/ap",
+				"config/app.php"
+			],
+			[
+				"config/a",
+				"config/app.php"
+			],
+			[
+				"user.",
+				"app/User.php"
+			],
+			[
+				"pla",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"usercontr",
+				"app/Http/Controllers/UserController.php"
+			],
+			[
+				"utils.sc",
+				"resources/assets/sass/_utils.scss"
+			],
+			[
+				"butto",
+				"resources/assets/sass/forms/_forms-buttons.scss"
+			],
+			[
+				"dashb",
+				"resources/assets/js/components/Dashboard.vue"
+			],
+			[
+				"navigati",
+				"resources/assets/js/components/Navigation.vue"
+			],
+			[
+				"auth.js",
+				"resources/assets/js/auth.js"
+			],
+			[
+				"action",
+				"resources/assets/js/vuex/actions.js"
+			],
+			[
+				"mutat",
+				"resources/assets/js/vuex/mutation-types.js"
+			],
+			[
+				"dashbo",
+				"resources/assets/js/components/Dashboard.vue"
+			],
+			[
+				"jwt",
+				"config/jwt.php"
+			],
+			[
+				"routes",
+				"resources/assets/js/routes.js"
+			],
+			[
+				"auth.php",
+				"config/auth.php"
+			],
+			[
+				"playlistite",
+				"resources/assets/js/components/PlaylistItem.vue"
+			],
+			[
+				"mixins",
+				"resources/assets/js/mixins.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"app.b",
+				"resources/views/app.blade.php"
+			],
+			[
+				"play",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"routes.js",
+				"resources/assets/js/routes.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"trac",
+				"resources/assets/js/components/Tracklist.vue"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"app.j",
+				"resources/assets/js/app.js"
+			],
+			[
+				"pagina",
+				"resources/assets/js/components/Pagination.vue"
+			],
+			[
+				"navi",
+				"resources/assets/js/components/Navigation.vue"
+			],
+			[
+				"playlistit",
+				"resources/assets/js/components/PlaylistItem.vue"
+			],
+			[
+				"tracklist.",
+				"resources/assets/js/components/Tracklist.vue"
+			],
+			[
+				"song.vue",
+				"resources/assets/js/components/Song.vue"
+			],
+			[
+				"loading.v",
+				"resources/assets/js/components/Loading.vue"
+			],
+			[
+				"tracklis",
+				"resources/assets/js/components/Tracklist.vue"
+			],
+			[
+				"compo",
+				"composer.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"tables",
+				"resources/assets/sass/_tables.scss"
+			],
+			[
+				"utils.scs",
+				"resources/assets/sass/_utils.scss"
+			],
+			[
+				"title",
+				"resources/assets/sass/_title-area.scss"
+			],
+			[
+				"variables",
+				"resources/assets/sass/_variables.scss"
+			],
+			[
+				"layout",
+				"resources/assets/sass/_layout.scss"
+			],
+			[
+				"artist.",
+				"resources/assets/js/components/Artist.vue"
+			],
+			[
+				"app.s",
+				"resources/assets/sass/app.scss"
+			],
+			[
+				"song.v",
+				"resources/assets/js/components/Song.vue"
+			],
+			[
+				"tracklist",
+				"resources/assets/js/components/Tracklist.vue"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"guklpfi",
+				"node_modules/bs-recipes/recipes/gulp.task.sequence/gulpfile.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"song.",
+				"resources/assets/js/components/Song.vue"
+			],
+			[
+				"playlist.vue",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"nav.vu",
+				"resources/assets/js/components/Navigation.vue"
+			],
+			[
+				"playlistitem",
+				"resources/assets/js/components/PlaylistItem.vue"
+			],
+			[
+				"helper",
+				"app/Library/helpers.php"
+			],
+			[
+				"playlist.p",
+				"app/Playlist.php"
+			],
+			[
+				"appse",
+				"app/Providers/AppServiceProvider.php"
+			],
+			[
+				"app.p",
+				"bootstrap/app.php"
+			],
+			[
+				"handle",
+				"app/Exceptions/Handler.php"
+			],
+			[
+				"playlist.v",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"composer",
+				"composer.json"
+			],
+			[
+				"trackst",
+				"app/TrackStat.php"
+			],
+			[
+				"artist.v",
+				"resources/assets/js/components/Artist.vue"
+			],
+			[
+				"newtr",
+				"resources/assets/js/components/NewTracks.vue"
+			],
+			[
+				"playlist.vu",
+				"resources/assets/js/components/Playlist.vue"
+			],
+			[
+				"song.vu",
+				"resources/assets/js/components/Song.vue"
+			],
+			[
+				"api",
+				"routes/api.php"
+			],
+			[
+				"track",
+				"app/Track.php"
+			],
+			[
+				"song.p",
+				"app/Song.php"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"gitign",
+				".gitignore"
+			],
+			[
+				"parser.php",
+				"vendor/salsify/json-streaming-parser/src/Parser.php"
+			],
+			[
+				"parser.p",
+				"vendor/salsify/json-streaming-parser/src/Parser.php"
+			],
+			[
+				"prepare",
+				"app/Jobs/PrepareJsonDataFile.php"
+			],
+			[
+				"playlistme",
+				"app/Library/PlaylistMethods.php"
+			],
+			[
+				"eventservi",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"playlistimpo",
+				"app/Http/Controllers/PlaylistImportController.php"
+			],
+			[
+				"playlistmeth",
+				"app/Library/PlaylistMethods.php"
+			],
+			[
+				"helpers",
+				"app/Library/helpers.php"
+			],
+			[
+				"hel",
+				"app/Library/helpers.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/accounts/accounts.sublime-project"
+			],
+			[
+				"mia",
+				"~/projects/mia/splash/mia-splash.sublime-project"
+			],
+			[
+				"cult",
+				"/Applications/MAMP/htdocs/cult/wp-content/themes/cultldn/cult.sublime-project"
+			],
+			[
+				"bear",
+				"/Users/jamestowers/Library/Application Support/Sublime Text 2/Projects/bear-or-steve.sublime-project"
+			],
+			[
+				"var",
+				"/Users/jamestowers/Library/Application Support/Sublime Text 2/Projects/Varo/varo.sublime-project"
+			],
+			[
+				"mother",
+				"/Users/jamestowers/Library/Application Support/Sublime Text 2/Projects/motherclucker.sublime-project"
+			],
+			[
+				"be",
+				"/Applications/MAMP/htdocs/bemindful/bemindful.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

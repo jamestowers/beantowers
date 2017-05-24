@@ -1,0 +1,292 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.group:after { // (.clearfix)
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+  display: inline-block;
+  //width:auto; // required for height: auto to work in IE8
+  max-width:100%;
+  height:auto;
+}
+ul{
+  li{
+    padding: 10px;
+    //border-bottom: 1px solid $grey7;
+  }
+}
+.table-container{
+  width:100%;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: $padding*2;
+}
+
+table{
+  @include font-size(1.2);
+  width: 100%;
+  th,
+  td{
+    word-wrap: break-word;
+    max-width: 400px;
+    .thumbnail{
+      width: 60px;
+      float: left;
+      margin-right:$padding/2;
+    }
+  }
+  th{
+    background:$grey4;
+    text-align: left;
+    color:$white;
+    cursor: pointer;
+  }
+  tr{
+    border-bottom: 1px solid $grey8;
+    &:nth-child(odd){
+      //background:$grey8;
+    }
+    &.new{
+      background:$color-message;
+      border-bottom: 1px solid darken($color-message, 7);
+    }
+    &.deleted{
+      background:$color-error;
+      border-bottom: 1px solid darken($color-error, 7);
+    }
+    a{
+      color:$grey2;
+    }
+  }
+  td{
+    vertical-align: middle;
+  }
+}
+canvas{
+  display: block;
+}
+section{
+  clear: both;
+}
+.inner{
+  width:100%;
+  max-width:940px;
+  margin: 0 auto;
+  clear: left;
+  &.narrow{
+    max-width: 800px;
+  }
+}
+.row{
+  clear: both;
+}
+
+
+
+// FLEX
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column{
+  flex-direction: column;
+  flex: 1;
+}
+.flex-row{
+  flex-direction: row;
+  flex: 1;
+}
+
+
+
+.full-height{
+  height: 100%;
+}
+.hide{
+  display: none !important;
+}
+.hide-on-mobile{
+  display: none;
+}
+
+
+
+.bg-light{
+  background:$grey8;
+}
+.bg-dark{
+  background:$grey3;
+  color:$white;
+}
+.bg-darkest{
+  background:$grey2;
+  color:$white;
+}
+.bg-white{
+  background:$white;
+}
+
+// FLOATS
+.clear{
+  clear: both;
+}
+.pull-left{
+  float: left !important;
+}
+.pull-right{
+  float: right !important;
+}
+.pull-center{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+// TEXT ALIGNMENT
+.text-left{
+  text-align:left;
+}
+.text-right{
+  text-align:right;
+}
+.text-center{
+  text-align:center;
+}
+
+// IMAGE ALIGNMENT
+.alignleft, img.alignleft { 
+  margin-right: 1.5em; 
+  display: inline; 
+  float: left; 
+}
+.alignright, img.alignright { 
+  margin-left: 1.5em; 
+  display: inline; 
+  float: right; 
+}
+.aligncenter, img.aligncenter { 
+  margin-right: auto; 
+  margin-left: auto; 
+  display: block; 
+  clear: both; 
+}
+.pad{
+  padding: $padding $padding $padding $padding;
+}
+.pad-half{
+  padding: $padding-half;
+}
+.padded{
+  padding: 10vw;
+}
+
+.no-margin{
+  margin: 0 !important;
+}
+// BORDERS
+.border-top{
+  border-top: 1px solid $grey6;
+}
+.border-right{
+  border-right: 1px solid $grey6;
+}
+.border-bottom{
+  border-bottom: 1px solid $grey6;
+}
+.border-left{
+  border-left: 1px solid $grey6;
+}
+
+// MESSAGES
+// ALERTS
+body > .alert{
+  position: fixed;
+  width:100%;
+}
+.alert{
+  //display: none;
+  background: $color-message;
+  padding: $padding-half;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  //transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
+  //transform-origin: top center;
+  transition: transform 0.4s ease-out;
+  backface-visibility: visible !important;
+  //opacity:0;
+  z-index: 11;
+  &.on{
+    @include flipInX();
+    opacity:1;
+    display: block;
+  }
+  ul{
+    margin: 0;
+  }
+  &.message{
+    color:$grey2;
+  }
+  &.error,
+  &.alert-danger{
+    background: $color-error;
+    color:$white;
+  }
+  &.success,
+  &.alert-success{
+    background: $color-success;
+    color:$white;
+  }
+}
+.no-csstransforms3d.csstransforms{
+  .alert{
+    transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    &.on{
+      transform: translateY(0);
+      -ms-transform: translateY(0);
+    }
+  }
+}
+.error{
+  color:$color-error;
+}
+
+// THUMBNAILS
+.thumbnail{
+  float:left;
+  position: relative;
+  max-width: 100%;
+  &.thumbnail-med{
+    width:150px;
+    margin-right:10px;
+  }
+  &.thumbnail-small{
+    width:50px;
+    margin-right:10px;
+  }
+}
+
+// ANIMATIONS
+.shaking{
+  animation: shake 0.6s linear infinite 0s;
+}
+
+
+/*********************
+GRID
+*********************/
+.col6-sm{
+  width: 50%;
+  position: relative;
+  float: left;
+}

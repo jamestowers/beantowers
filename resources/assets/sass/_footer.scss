@@ -1,0 +1,45 @@
+footer#app-footer{
+  clear: both;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0 5.6vw;
+  width: 100%;
+}
+
+ul#logos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  overflow: hidden;
+  li{
+    display: inline-block;
+    opacity:0.6;
+    transform: translateY(100%);
+    transition: all 0.4s cubic-bezier(.68,-0.55,.27,1.55);
+    @include delay(0, 0.1, 7);
+  }
+}
+
+.isReady{
+  ul#logos{
+    li{
+      transform: translateY(0);
+    }
+  }
+}
+
+[data-page="project"]{
+  footer#app-footer{
+    z-index: -1;
+  }
+  ul#logos{
+    position: relative;
+    z-index: -1;
+    li{
+      transform: translateY(100%);
+      opacity:0;
+    }
+  }
+}
