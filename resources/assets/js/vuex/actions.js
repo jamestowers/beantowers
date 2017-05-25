@@ -29,6 +29,7 @@ export const getProjects = ({ commit }) => {
 };
 
 export const setActiveProject = ({ commit, state, getters }, data) => {
+    console.log('- - Setting active project index to: ' + data.index);
     commit(types.SET_ACTIVE_PROJECT, { index: data.index})
 }
 

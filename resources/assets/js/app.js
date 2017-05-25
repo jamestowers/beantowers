@@ -4,11 +4,13 @@ import VueRouter from 'vue-router'
 import { routes } from './routes';
 import store from './vuex/store';
 import { sync } from 'vuex-router-sync';
-import ScrollTriggscrollMonitorer from 'scrollMonitor';
+
+import scrollPage from './scrollPage';
+import scrollMonitor from 'scrollMonitor';
+import imagesLoaded from 'imagesLoaded';
 
 import ProjectTiles from './components/ProjectTiles.vue';
 import ImageUpload from './components/ImageUpload.vue';
-import imagesLoaded from 'imagesLoaded';
 
 window._ = require('lodash');
 window.Vue = require('vue');
@@ -48,22 +50,21 @@ Vue.directive('ontransitionend', {
 export const router = new VueRouter({
     mode: 'history',
     routes, // short for routes: routes
-    scrollBehavior (to, from, savedPosition) {
+    /*scrollBehavior (to, from, savedPosition) {
         if (savedPosition) {
             return savedPosition
         } else {
             return { x: 0, y: 0 }
         }
-    }
+    }*/
 })
 
 sync(store, router)
 
 export const eventHub = new Vue();
 
-//export const trigger = new ScrollTrigger({ offset: { x: -150, y: 0 }, once: true });
-
 const app = new Vue({
+    
     el: '#app',
 
     router,
@@ -88,6 +89,7 @@ const app = new Vue({
     created(){
         store.dispatch('getProjects')
         store.dispatch('setDimensions')
+        
         window.addEventListener('resize', _.debounce(function() {
           store.dispatch('setDimensions')
         }, 400));
@@ -106,7 +108,7 @@ const app = new Vue({
         });*/
         //trigger.attach(this.onScroll);
         
-        this.creditsLog();
+        //this.creditsLog();
     },
 
     mounted() {
@@ -154,7 +156,8 @@ const app = new Vue({
             this.addClass('isReady')
             this.removeClass('isAnimating')
             this.pageInit()
-            document.body.scrollTop = 1
+    
+            //document.body.scrollTop = 1
         },
         onImagesLoaded(){
             store.dispatch('setDocumentHeight')
@@ -162,13 +165,14 @@ const app = new Vue({
             this.pageBottom = scrollMonitor.create( this.$store.getters.dimensions.documentHeight, 200 )
             let self = this
             this.pageBottom.enterViewport ((e, state) => 
-                console.log(scrollMonitor.watchers)
+                console.log('Reached end of page')
             )
             this.addClass('imageLoaded')
         },
         onEnterViewport(e, el){
             this.addClass('visible', el.watchItem);
         },
+
         
         /*onScroll(scrollLeft, scrollTop, width, height){
             //console.log( (store.getters.dimensions.documentHeight - height) - scrollTop)
@@ -220,10 +224,11 @@ router.beforeEach((to, from, next) => {
     app.removeClass('isReady')
     app.removeClass('imageLoaded')
     app.addClass('isAnimating')
+    scrollPage(0, 400, 'easeInQuad',() => next())
     /*if(to.name === 'home'){
         
     } else if(to.name === 'project'){
-
+        //console.log(to);
     }*/
-    next()
+    
 });

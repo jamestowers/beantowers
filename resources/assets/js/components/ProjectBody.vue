@@ -43,12 +43,14 @@
 <script>
     
     import { eventHub } from '../app.js'
+    //import scrollPage from '../scrollPage';
     //import store from '../vuex/store';
 
     export default {
 
         data(){
             return {
+                lastProject: null
             }
         },
 
@@ -67,34 +69,69 @@
 
         watch: {
             project(to, from){
-                //this.init()
+                console.log('- watch event called');
+                this.init()
+                //console.log('Active project changed to index:' + this.$store.getters.activeProjectIndex)
             }
         },
 
-        mounted(){
-            //console.log('mounted');
-            this.init()
+        created(){
+            //console.log('- created')
         },
 
-        beforeUpdate(){
+        mounted(){
+            console.log('- mounted');
+        },
 
+        /*beforeRouteUpdate(to, from, next){
+            console.log('going from ' + from.params.slug + ' to ' + to.params.slug);
+            next()
+        },*/
+
+        beforeUpdate(){
+            if(this.lastProject && this.project != this.lastProject){
+                console.log('- - - beforeUpdate: changing from ' + this.lastProject.title);
+            }
         },
 
         updated(){
-            //console.log('updated');
-            if(this.project)
-                this.init()
+            //console.log('updated called');
+            this.setLastProject()
         },
 
         destroyed() {
-            //trigger.destroyAll()
+            console.log('Destroying');
         },
 
         methods: {
             init(){
                 let index = this.$store.getters.projects.indexOf(this.project)
                 this.$store.dispatch('setActiveProject', { index: index })
-                //this.$root.pageInit(this.$el)
+                //this.lastProject = this.project
+            },
+            setLastProject(){
+                if(!this.project){
+                    console.log('- - - - No project, returning');
+                    return 
+                }
+
+                // have existing project and updating to a new one
+                if(this.lastProject && this.project != this.lastProject){
+                    console.log('- - - - updating to new project: ' +  this.project.title);
+                    this.lastProject = this.project
+
+                // No previous project but got a new one so this is a first time project view 
+                }else if(!this.lastProject && this.project){
+                    console.log('- - - No last project, setting lastProject to ' + this.project.title);
+                    this.lastProject = this.project;
+
+                // have a previous project but no new one so moving away from project page
+                }else if(this.project === this.lastProject){
+                    console.log('- - - - updated, same project')
+                    eventHub.$emit('headerReady')
+                }else{
+                    console.log('- - - - updated, have project: ' + this.project.title)
+                }
             }
         }
 
@@ -128,6 +165,10 @@
     .project-content{
         position: relative;
         z-index: 1;
+        & > div{
+            transform-origin: 50% 50%;
+            transition: all 0.4s $ease-in-out;
+        }
     }
     .project-intro{
 
@@ -154,6 +195,13 @@
         }
         .next-project{
             display: flex;
+        }
+    }
+    .switch-project{
+        overflow: hidden;
+        .next-project{
+            bottom: calc(100% - 300px);
+            z-index: 1;
         }
     }
     

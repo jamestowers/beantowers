@@ -22,8 +22,12 @@ div#app {
     transition-delay: 1.2s
   }
   &.isAnimating{
-    height:100vh;
-    overflow: hidden;
+    /* height:100vh;
+    overflow: hidden; */
+    .project-content > div{
+      opacity:0;
+      transform: scale(0.8);
+    }
   }
 }
 

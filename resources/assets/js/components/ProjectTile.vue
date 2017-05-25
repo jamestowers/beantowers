@@ -118,6 +118,12 @@
                 width:100%;
             }
         }
+        /* &.animate-out{
+            
+        }
+        &.animate-in{
+
+        } */
     }
     .project-image-cont{
         position: absolute;

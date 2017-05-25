@@ -39,8 +39,6 @@
 
     <loading-indicator v-else></loading-indicator>
 
-    
-
 </template>
 
 <script>
@@ -53,6 +51,7 @@
 
         data(){
             return {
+                reset: true,
                 animating: false,
                 headerReady: false, // needed to avoid console error
                 scrollDirection: 'up',
@@ -87,6 +86,7 @@
 
         watch: {
             '$route': function(to, from, next){
+                this.reset = true
                 if(from.name === 'home'){
                     clearInterval(this.cycleInterval);
                 }
