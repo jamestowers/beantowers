@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
 
 Route::get('/', 'HomeController@index');
 
@@ -67,9 +68,9 @@ Route::get('/images/{size}/{name}', function($size = NULL, $name = NULL)
     }
 });
 
+//Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/{vue_capture?}', function () {
     return view('home');
 })->where('vue_capture', '[\/\w\.-]*');
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

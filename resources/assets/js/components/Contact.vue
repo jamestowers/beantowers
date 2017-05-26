@@ -1,5 +1,5 @@
 <template>
-    <div id="contact-form" class="pad inner">
+    <div id="contact-form" class="page pad inner">
 
         <h2 class="huge">Hello.</h2>
         

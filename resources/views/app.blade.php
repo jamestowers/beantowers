@@ -4,7 +4,6 @@
 
 <body class="">
   
-  @yield('content')
   <div 
     id="app" 
     class="group"
@@ -14,6 +13,8 @@
     @include('header')
 
     <project-tiles></project-tiles>
+    
+    @yield('content')
     
     <router-view></router-view>
     

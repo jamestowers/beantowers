@@ -16,6 +16,17 @@
         <li>
             <router-link :to="{ name: 'contact' }">Contact</router-link>
         </li>
+        @if( Auth::check() )
+            <a href="{{ url('/logout') }}"
+                onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+                Logout
+            </a>
+
+            <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+                {{ csrf_field() }}
+            </form>
+        @endif
     </ul>
 
     <router-link :to="{ name: 'home' }" id="logo"><h1>BeanTowers</h1></router-link>
