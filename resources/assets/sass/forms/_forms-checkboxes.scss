@@ -1,7 +1,7 @@
 .checkbox,
 .checkbox-small{
-  margin-top: $padding;
-  margin-bottom: $padding;
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
   label {
     position: relative;
@@ -21,7 +21,7 @@
     cursor: pointer;
     display: inline-block;
     float: left;
-    margin-right:$padding;
+    margin-right:10px;
     vertical-align: middle;
     width:54px;
     height: 30px;

@@ -30,17 +30,17 @@
         </div>
 
         <div class="form-row">
-            <div class="checkbox">
+            <div class="checkbox checkbox-small">
                 <label>
-                    <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
+                    <input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}>
+                    <div></div>
+                    Remember Me
                 </label>
             </div>
 
-            <button type="submit" class="btn btn-primary">
-                Register
-            </button>
+            <button type="submit" class="btn btn-primary">Login</button>
 
-            <a class="btn btn-link" href="{{ route('password.request') }}">
+            <a class="pull-right clear" href="{{ route('password.request') }}">
                 Forgot Your Password?
             </a>
         </div>
