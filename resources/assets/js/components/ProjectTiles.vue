@@ -69,7 +69,14 @@
                 return this.projects.map((project) => { return project.header_image[0].url; });
             },
             height(){
-                return this.$store.state.route.name == 'home' ? this.$store.getters.dimensions.height - (this.$store.getters.dimensions.height/5.6) : 400
+                let route = this.$store.state.route.name;
+                if(route === 'home'){
+                    return this.$store.getters.dimensions.height - (this.$store.getters.dimensions.height/5.6)
+                } else if(route === 'project'){
+                    return 400
+                } else {
+                    return 0
+                }
             },
             width(){
                 //return this.$store.state.route.name == 'home' ? this.$store.getters.dimensions.width - 120 : this.$store.getters.dimensions.width
@@ -218,6 +225,11 @@
             }
         }
     }
+    [data-page="contact"]{
+        .projects{
+            transform: scale(0.4);
+        }
+    }
     .projects{
         height:100%;
         margin: auto $padding;
@@ -225,12 +237,14 @@
         position: relative;
         top:0;
         max-width: 100%;
+        transform-origin: 50% 50%;
         transition: all 0.8s $ease-in-out;
         //transition-property: height, margin, top, opacity;
         z-index: 1;
         .project-link{
             padding-left:0;
             padding-right:0;
+            outline: none;
             span.text{
                 margin: 0 20px;
             }

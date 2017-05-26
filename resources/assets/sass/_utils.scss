@@ -20,53 +20,7 @@ ul{
     //border-bottom: 1px solid $grey7;
   }
 }
-.table-container{
-  width:100%;
-  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-  margin-bottom: $padding*2;
-}
 
-table{
-  @include font-size(1.2);
-  width: 100%;
-  th,
-  td{
-    word-wrap: break-word;
-    max-width: 400px;
-    .thumbnail{
-      width: 60px;
-      float: left;
-      margin-right:$padding/2;
-    }
-  }
-  th{
-    background:$grey4;
-    text-align: left;
-    color:$white;
-    cursor: pointer;
-  }
-  tr{
-    border-bottom: 1px solid $grey8;
-    &:nth-child(odd){
-      //background:$grey8;
-    }
-    &.new{
-      background:$color-message;
-      border-bottom: 1px solid darken($color-message, 7);
-    }
-    &.deleted{
-      background:$color-error;
-      border-bottom: 1px solid darken($color-error, 7);
-    }
-    a{
-      color:$grey2;
-    }
-  }
-  td{
-    vertical-align: middle;
-  }
-}
 canvas{
   display: block;
 }
@@ -192,19 +146,7 @@ section{
 .no-margin{
   margin: 0 !important;
 }
-// BORDERS
-.border-top{
-  border-top: 1px solid $grey6;
-}
-.border-right{
-  border-right: 1px solid $grey6;
-}
-.border-bottom{
-  border-bottom: 1px solid $grey6;
-}
-.border-left{
-  border-left: 1px solid $grey6;
-}
+
 
 // MESSAGES
 // ALERTS
@@ -247,46 +189,6 @@ body > .alert{
     color:$white;
   }
 }
-.no-csstransforms3d.csstransforms{
-  .alert{
-    transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    &.on{
-      transform: translateY(0);
-      -ms-transform: translateY(0);
-    }
-  }
-}
 .error{
   color:$color-error;
-}
-
-// THUMBNAILS
-.thumbnail{
-  float:left;
-  position: relative;
-  max-width: 100%;
-  &.thumbnail-med{
-    width:150px;
-    margin-right:10px;
-  }
-  &.thumbnail-small{
-    width:50px;
-    margin-right:10px;
-  }
-}
-
-// ANIMATIONS
-.shaking{
-  animation: shake 0.6s linear infinite 0s;
-}
-
-
-/*********************
-GRID
-*********************/
-.col6-sm{
-  width: 50%;
-  position: relative;
-  float: left;
 }

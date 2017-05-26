@@ -3,7 +3,8 @@
 @include('head')
 
 <body class="">
-
+  
+  @yield('content')
   <div 
     id="app" 
     class="group"
@@ -13,7 +14,7 @@
     @include('header')
 
     <project-tiles></project-tiles>
-
+    
     <router-view></router-view>
     
     <footer id="app-footer">

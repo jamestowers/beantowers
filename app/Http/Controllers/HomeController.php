@@ -6,16 +6,23 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    
     /**
-     * Display the Homepage
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
+    /**
+     * Show the application dashboard.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $projects = \App\Project::with('images')->get();
-
-        return view('home', compact('projects'));
+        return view('home');
     }
 }

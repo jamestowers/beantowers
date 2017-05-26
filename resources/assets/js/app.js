@@ -114,6 +114,9 @@ const app = new Vue({
     mounted() {
         let mousewheelevt=(/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel";
         document.addEventListener(mousewheelevt, this.handleMouseWheel, false);
+
+        let navToggle = document.getElementById('menu-toggle');
+        navToggle.addEventListener('click', this.toggleNav)
     },
 
     methods: {
@@ -152,12 +155,16 @@ const app = new Vue({
 
 
         // EVENT RESPONSES
+        toggleNav(e){
+            e.preventDefault()
+            this.toggleClass('showNav')
+        },
         onHeaderReady(){
             this.addClass('isReady')
             this.removeClass('isAnimating')
             this.pageInit()
     
-            //document.body.scrollTop = 1
+            document.body.scrollTop = 1
         },
         onImagesLoaded(){
             store.dispatch('setDocumentHeight')
@@ -196,11 +203,30 @@ const app = new Vue({
             else
               el.className += ' ' + className;
         },
-        removeClass(className){
-            if (this.$el.classList)
-              this.$el.classList.remove(className);
+        removeClass(className, el = null){
+            if(!el){ el = this.$el }
+
+            if (el.classList)
+              el.classList.remove(className);
             else
-              this.$el.className = this.$el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+              el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+        },
+        toggleClass(className, el = null){
+            if(!el){ el = this.$el }
+
+            if (el.classList) {
+              el.classList.toggle(className);
+            } else {
+              var classes = el.className.split(' ');
+              var existingIndex = classes.indexOf(className);
+
+              if (existingIndex >= 0)
+                classes.splice(existingIndex, 1);
+              else
+                classes.push(className);
+
+              el.className = classes.join(' ');
+            }
         },
         /*handleMouseMove(e) {
             this.mousePos.x = e.clientX / window.innerWidth * 2 - 1,
@@ -223,8 +249,13 @@ const app = new Vue({
 router.beforeEach((to, from, next) => {
     app.removeClass('isReady')
     app.removeClass('imageLoaded')
+    app.removeClass('showNav')
     app.addClass('isAnimating')
-    scrollPage(0, 400, 'easeInQuad',() => next())
+    let delay = from.name === 'project' ? 600 : 0
+    setTimeout(function(){
+        scrollPage(0, 300, 'easeInQuad',() => next())
+    }
+    , delay)
     /*if(to.name === 'home'){
         
     } else if(to.name === 'project'){

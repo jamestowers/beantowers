@@ -13,13 +13,11 @@
 
 Route::get('/', 'HomeController@index');
 
-//Route::group(['middleware' => ['auth']], function () {
+Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/admin', function () {
         return view('welcome');
     });
-
-    Route::get('/projects', 'ProjectController@index');
 
     Route::get('/projects/{id}', 'ProjectController@show')->where('id', '[0-9]+');
 
@@ -30,7 +28,11 @@ Route::get('/', 'HomeController@index');
         'index', 'create', 'update'
     ]]);
 
-//});
+});
+
+Route::get('/projects', 'ProjectController@index');
+
+Route::post('/contact', 'ContactController@send');
 
 Route::get('/images/{size}/{name}', function($size = NULL, $name = NULL)
 {
@@ -68,3 +70,6 @@ Route::get('/images/{size}/{name}', function($size = NULL, $name = NULL)
 Route::get('/{vue_capture?}', function () {
     return view('home');
 })->where('vue_capture', '[\/\w\.-]*');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
