@@ -71,6 +71,7 @@ export const setDimensions = ({ commit }) => {
     let dimensions = {
         height: y,
         width: x,
+        padding: x * 0.056, // 5.6vw
         isMobile: x < 768,
         imageSize: img
     }

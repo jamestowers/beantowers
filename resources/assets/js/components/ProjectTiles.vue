@@ -71,7 +71,7 @@
             height(){
                 let route = this.$store.state.route.name;
                 if(route === 'home'){
-                    return this.$store.getters.dimensions.height - (this.$store.getters.dimensions.height/5.6)
+                    return this.$store.getters.dimensions.height - (this.$store.getters.dimensions.padding*2)
                 } else if(route === 'project'){
                     return 400
                 } else {
