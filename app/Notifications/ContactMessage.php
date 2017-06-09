@@ -6,19 +6,22 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Notifications\Messages\SlackMessage;
 
 class ContactMessage extends Notification
 {
     use Queueable;
+
+    protected $message;
 
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($message)
     {
-        //
+        $this->message = $message;
     }
 
     /**
@@ -29,7 +32,7 @@ class ContactMessage extends Notification
      */
     public function via($notifiable)
     {
-        return ['mail'];
+        return ['mail', 'slack'];
     }
 
     /**
@@ -40,11 +43,33 @@ class ContactMessage extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)
-                    ->subject('New website query')
-                    ->greeting('Hello!')
-                    ->line('We\'ve had a new query from website.')
-                    ->action('Notification Action', url('/'));
+        $intro = 'We\'ve had a new query from ' . $this->message['name'];
+        if(isset($this->message['company'])){
+            $intro .= ' who works at ' . $this->message['company'];
+        }
+
+        $email = (new MailMessage)
+            ->subject('New website query')
+            ->greeting('Hello!')
+            ->line($intro)
+            ->line($this->message['message'])
+            ->action('Reply', url('mailto:' . $this->message['email']));
+
+        return $email;
+    }
+
+    /**
+     * Get the Slack representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return SlackMessage
+     */
+    public function toSlack($notifiable)
+    {
+        return (new SlackMessage)
+            ->from($this->message['name'], ':fist:')
+            ->content('Reply: ' . $this->message['email'] . ' - ' . $this->message['message'])
+            ;
     }
 
     /**

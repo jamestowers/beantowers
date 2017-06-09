@@ -11,7 +11,7 @@ class ContactController extends Controller
 {
     public function send(Request $request)
     {   
-        $msg = $request->message;
+        $msg = $request->all();
         $user = User::first();
         $user->notify(new ContactMessage($msg));
     }

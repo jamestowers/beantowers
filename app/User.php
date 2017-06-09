@@ -26,4 +26,16 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    protected $slack_webhook_url = 'https://hooks.slack.com/services/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';
+
+    /**
+     * Route notifications for the Slack channel.
+     *
+     * @return string
+     */
+    public function routeNotificationForSlack()
+    {
+        return $this->slack_webhook_url;
+    }
 }
