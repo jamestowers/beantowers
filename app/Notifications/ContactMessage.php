@@ -67,8 +67,8 @@ class ContactMessage extends Notification
     public function toSlack($notifiable)
     {
         return (new SlackMessage)
-            ->from($this->message['name'], ':fist:')
-            ->content('Reply: ' . $this->message['email'] . ' - ' . $this->message['message'])
+            ->from($this->message['name'], ':fist:')   
+            ->content("_New contact form message_ \n>>> " . $this->message['message'] . "\n _Reply to: " . $this->message['email'] . "_ ")
             ;
     }
 

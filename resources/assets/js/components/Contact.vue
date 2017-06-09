@@ -2,6 +2,7 @@
     <div id="contact-form" class="page pad inner">
         
         <transition name="fade">
+
             <div v-if="!success">
                 
                 <h2 class="huge">Hello.</h2>
@@ -34,7 +35,12 @@
                     </div>
                     
                     <div class="form-row">
-                        <input @click.prevent="onSubmit" type="submit" :value="btnText" />
+                        <input 
+                            @click.prevent="onSubmit" 
+                            type="submit" 
+                            :value="btnText" 
+                            role="button"
+                            class="btn-lg" />
                     </div>
 
                 </form>

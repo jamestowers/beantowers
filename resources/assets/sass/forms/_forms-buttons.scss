@@ -180,6 +180,7 @@ a[role="button"]{
   }
 }
 [role="button"]{
+  font-family: $font-header;
   &.btn-primary{
     background:$color-primary;
     &:after{
@@ -228,9 +229,7 @@ a[role="button"]{
   }
   &.btn-lg{
     padding: 10px 40px;
-    margin-bottom: $padding;
-    margin-right: $padding;
-    @include font-size(2);
+    @include font-size(3);
     transition: all 0.2s $ease-out-quint;
     &.btn-clear{
       padding: 7px 40px;
